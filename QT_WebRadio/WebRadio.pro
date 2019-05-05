@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-05-05T19:35:39
+# Project created by QtCreator 2019-05-05T18:44:39
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = QT_WebRadio
+TARGET = WebRadio
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use

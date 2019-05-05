@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
 
+# Form implementation generated from reading ui file 'mainwindow.ui'
+#
+# Created by: PyQt5 UI code generator 5.12.1
+#
+# WARNING! All changes made in this file will be lost!
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
@@ -8,7 +14,7 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(712, 477)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("webradio.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("../webradio.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         MainWindow.setStyleSheet("background-color: rgb(114, 159, 207);\n"
 "color: rgb(238, 238, 236);")
@@ -189,7 +195,7 @@ class Ui_MainWindow(object):
         self.buttonCherieFM.setGeometry(QtCore.QRect(100, 120, 100, 100))
         self.buttonCherieFM.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("Cherie-FM.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("../Cherie-FM.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.buttonCherieFM.setIcon(icon1)
         self.buttonCherieFM.setIconSize(QtCore.QSize(100, 100))
         self.buttonCherieFM.setObjectName("buttonCherieFM")
@@ -197,7 +203,7 @@ class Ui_MainWindow(object):
         self.buttonNRJ.setGeometry(QtCore.QRect(300, 120, 100, 100))
         self.buttonNRJ.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("NRJ.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap("../NRJ.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.buttonNRJ.setIcon(icon2)
         self.buttonNRJ.setIconSize(QtCore.QSize(100, 100))
         self.buttonNRJ.setObjectName("buttonNRJ")
@@ -205,7 +211,7 @@ class Ui_MainWindow(object):
         self.buttonFG.setGeometry(QtCore.QRect(500, 120, 100, 100))
         self.buttonFG.setText("")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("Radio-FG.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon3.addPixmap(QtGui.QPixmap("../Radio-FG.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.buttonFG.setIcon(icon3)
         self.buttonFG.setIconSize(QtCore.QSize(100, 100))
         self.buttonFG.setObjectName("buttonFG")
@@ -213,7 +219,7 @@ class Ui_MainWindow(object):
         self.buttonRFM.setGeometry(QtCore.QRect(200, 280, 100, 100))
         self.buttonRFM.setText("")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("RFM.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon4.addPixmap(QtGui.QPixmap("../RFM.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.buttonRFM.setIcon(icon4)
         self.buttonRFM.setIconSize(QtCore.QSize(100, 100))
         self.buttonRFM.setObjectName("buttonRFM")
@@ -221,7 +227,7 @@ class Ui_MainWindow(object):
         self.buttonVoltage.setGeometry(QtCore.QRect(400, 280, 100, 100))
         self.buttonVoltage.setText("")
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap("Voltage.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon5.addPixmap(QtGui.QPixmap("../Voltage.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.buttonVoltage.setIcon(icon5)
         self.buttonVoltage.setIconSize(QtCore.QSize(100, 100))
         self.buttonVoltage.setObjectName("buttonVoltage")
