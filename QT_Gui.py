@@ -11,7 +11,7 @@ class Ui_MainWindow(object):
         
         
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(712, 477)
+        MainWindow.resize(640, 480)
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap(dir_path + "/webradio.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
@@ -39,7 +39,7 @@ class Ui_MainWindow(object):
         self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line.setObjectName("line")
         self.iconApplication = QtWidgets.QPushButton(self.centralWidget)
-        self.iconApplication.setGeometry(QtCore.QRect(600, 0, 101, 81))
+        self.iconApplication.setGeometry(QtCore.QRect(530, 0, 101, 81))
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
         brush.setStyle(QtCore.Qt.SolidPattern)
