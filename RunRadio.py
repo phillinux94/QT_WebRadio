@@ -22,7 +22,7 @@ class MyWindow(QtWidgets.QMainWindow):
         # Sélection de la radio FG
         self.ui.buttonFG.clicked.connect(self.action_buttonFG)
         
-        # Sélection de la radio RFM
+        # Sélection de la radio RFM 
         self.ui.buttonRFM.clicked.connect(self.action_buttonRFM)
         
         # Sélection de la radio Voltage

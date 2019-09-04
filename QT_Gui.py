@@ -34,7 +34,7 @@ class Ui_MainWindow(object):
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
         self.line = QtWidgets.QFrame(self.centralWidget)
-        self.line.setGeometry(QtCore.QRect(20, 70, 521, 16))
+        self.line.setGeometry(QtCore.QRect(20, 70, 491, 16))
         self.line.setFrameShape(QtWidgets.QFrame.HLine)
         self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line.setObjectName("line")
